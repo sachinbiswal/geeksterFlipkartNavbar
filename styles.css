@@ -1,0 +1,113 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width: 100vw;
+            height: 100vh;
+            /* border: 2px solid red; */
+            background-color: rgb(99, 89, 89);
+        }
+        .subcontainer{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid red; */
+            background-color: white;
+        }
+        .subcontainerupper{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+            background-color: #3e72e7;
+        }
+        .subcontainerupperdiv{
+            width: 80%;
+            height: 60%;
+            display: flex;
+            justify-content: space-between;
+            /* border: 2px solid red; */
+        }
+        .uppermaterial1{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid red;            */
+        }
+        .uppermaterial2{
+            width: 37%;
+            height: 63%;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            /* border: 2px solid red;        */
+        }
+        .uppermaterial3{
+            width: 10%;
+            height: 63%;
+            display: flex;
+            padding-left: 2rem;
+            align-items: center;
+            /* border: 2px solid red;   */
+            background-color: white;     
+        }
+        .uppermaterial4{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 1.5rem;
+            /* border: 2px solid red;        */
+        }
+        .uppermaterial5{
+            width: 10%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            /* border: 2px solid red;        */
+        }
+        .uppermaterial6{
+            width: 10%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            /* border: 2px solid red;        */
+        }
+        .subcontainerlower{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid red; */
+        }
+        .subcontainerlowerdiv{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            /* border: 2px solid red; */
+        }
+        .material{
+            width: 8%;
+            height: 100%;
+            /* border: 2px solid red; */
+        }
+        p{
+            height: 30%;
+            width: 100%;
+            /* padding-left: 1rem; */
+            /* border: 2px solid red; */
+        }
+        select{
+            border: none;
+        }
+        input{
+            height: 100%;
+            width: 90%;
+            border: none;
+        }
